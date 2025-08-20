@@ -2,9 +2,48 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-image: url(..//images/imagem-fundo.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: #4b5c49;
+    width: 700px;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5% 5% 2% 5%;
+}
+p{
+    font-size: 1.2rem
+}
+div{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+button{
+    background-color: #f1c21a;
+    border: 0;
+    color: #4b5c49;
+    font-weight: bold;
+    font-size: 1.0rem ;
+    height: 25px;
+    border-radius: 5px;    
+
+}
+input{
+      height: 25px;
+      color: black;
 }
